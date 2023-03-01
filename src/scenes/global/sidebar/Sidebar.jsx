@@ -195,7 +195,7 @@ const MyProSidebar = () => {
                             color={colors.grey[300]}
                             sx={{ m: "15px 0 5px 20px" }}
                         >
-                            Categorías
+                            categorías
                         </Typography>
                         <Item
                             title="Importantes"
