@@ -237,7 +237,7 @@ const StatBox = ({
 							</IconButton>
 						</Tooltip>
 						<Tooltip
-							title={note.archive ? "Archivado" : "Archivar"}
+							title={note.archive ? "Desarchivar" : "Archivar"}
 							arrow
 							TransitionComponent={Zoom}
 						>
