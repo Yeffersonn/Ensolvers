@@ -18,7 +18,7 @@ const initialNotes = [
 		title: "Ejemplo 1",
 		description: "Descripción ejemplo 1",
 		completed: true,
-		archive: true,
+		archive: false,
 		category: "importante",
 	},
 	{

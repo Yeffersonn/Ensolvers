@@ -193,7 +193,7 @@ const Inicio = ({ notes, setNotes }) => {
 
 			{/* Notes*/}
 			<Grid container rowSpacing={2} columnSpacing={{ xs: 1, sm: 2, md: 2 }}>
-				{notes.map(note => {
+				{notes.filter(note => !note.archive).map(note => {
 					return (
 						<Grid xs={12} sm={12} md={6} lg={6} xl={3} key={note.id}>
 							<Paper elevation={3}>
